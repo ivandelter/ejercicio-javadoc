@@ -1,5 +1,10 @@
 package com.ejemplo;
 
+/*
+* En la clase FuncionesADocumentar podemos encontrar una variedad de métodos
+* desde sumar, coger el promedio de una lista o mostrarla ordenada
+* */
+
 public class FuncionesADocumentar {
     public static void main(String[] args) {
         
@@ -34,6 +39,11 @@ public class FuncionesADocumentar {
         return mayor;
     }
 
+    /*
+    * Devuelve el número más pequeño de un array de enteros
+    * @params a[] Un array de enteros
+    * return menor int el entero más pequeño de la lista
+    * */
     public static int menor(int a[]) {
         int menor = a[0];
         for (int i = 1; i < a.length; i++)
@@ -42,12 +52,20 @@ public class FuncionesADocumentar {
         return menor;
     }
 
+    /*
+    * Imprime en consola un array de enteros en orden inverso, desde la última posición hasta la primera
+    * @params a[] Un array de enteros
+    * */
     public static void invertir(int a[]) {
         for (int i = a.length - 1; i >= 0; i--)
             System.out.print(a[i] + " ");
         System.out.println();
     }
 
+    /*
+    * Muestra en consola los elementos de un array de enteros de forma ordenada de menor a mayor
+    * @params a[] Un array de enteros
+    * */
     public static void ordenar(int a[]) {
         int aux;
         for (int i = 0; i < a.length - 1; i++)

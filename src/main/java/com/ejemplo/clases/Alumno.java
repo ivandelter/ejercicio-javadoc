@@ -1,5 +1,13 @@
 package com.ejemplo.clases;
 
+/*
+* La clase alumno es un modelo para representar a un alumno.
+* Se compone de 3 atributos:
+* Identificador: Un string que va a ser única y es la forma de identificar al alumno
+* Nombre: Un string que representa el nombre del alumno
+* Curso: Un string que dicta qué curso realiza
+* */
+
 public class Alumno {
     private String identificador;
     private String nombre;
@@ -38,10 +46,17 @@ public class Alumno {
         this.identificador = identificador;
     }
 
+    /*
+    * Devuelve el atributo nombre de la clase Alumno
+    * */
     public String getNombre() {
         return nombre;
     }
 
+    /*
+    * Establece el atributo nombre con un string dado
+    * @param nombre Un String
+    * */
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
