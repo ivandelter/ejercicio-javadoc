@@ -39,10 +39,10 @@ public class FuncionesADocumentar {
         return mayor;
     }
 
-    /*
+    /**
     * Devuelve el número más pequeño de un array de enteros
-    * @params a[] Un array de enteros
-    * return menor int el entero más pequeño de la lista
+    * @param a Un array de enteros
+    * @return menor int el entero más pequeño de la lista
     * */
     public static int menor(int a[]) {
         int menor = a[0];
@@ -52,9 +52,9 @@ public class FuncionesADocumentar {
         return menor;
     }
 
-    /*
+    /**
     * Imprime en consola un array de enteros en orden inverso, desde la última posición hasta la primera
-    * @params a[] Un array de enteros
+    * @param a Un array de enteros
     * */
     public static void invertir(int a[]) {
         for (int i = a.length - 1; i >= 0; i--)
@@ -62,9 +62,9 @@ public class FuncionesADocumentar {
         System.out.println();
     }
 
-    /*
+    /**
     * Muestra en consola los elementos de un array de enteros de forma ordenada de menor a mayor
-    * @params a[] Un array de enteros
+    * @param a Un array de enteros
     * */
     public static void ordenar(int a[]) {
         int aux;
