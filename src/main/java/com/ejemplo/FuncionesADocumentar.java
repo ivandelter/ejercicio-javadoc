@@ -20,6 +20,11 @@ public class FuncionesADocumentar {
         ordenar(a);
     }
 
+    /**
+     * Función que devuelve la suma todos de todos los números dentro de un array.
+     * @param a El parámetro a define el array del que se quieren sumar todos los números.
+     * @return La suma total de todos los números del array.
+     */
     public static int suma(int a[]) {
         int suma = 0;
         for (int i = 0; i < a.length; i++)
@@ -27,10 +32,20 @@ public class FuncionesADocumentar {
         return suma;
     }
 
+    /**
+     * Función que devuelve el promedio de todos los números del array.
+     * @param a El parámetro a define el array del que se quiere saber la media.
+     * @return Devuelve la media de todos los números del array.
+     */
     public static double promedio(int a[]) {
         return suma(a) / a.length;
     }
 
+    /**
+     * Función que devuelve el número más alto dentro del array.
+     * @param a El parámetro a define el array del que se quiere sacar el número más alto.
+     * @return Devuelte el número más alto de todos los números del array.
+     */
     public static int mayor(int a[]) {
         int mayor = a[0];
         for (int i = 1; i < a.length; i++)
